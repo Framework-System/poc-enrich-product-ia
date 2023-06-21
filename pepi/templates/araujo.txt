@@ -1,0 +1,9 @@
+Preciso de cadastrar informações de um produto na minha farmácia.
+O produto tem o código EAN {ean_code}.
+
+No formato json, retorne somente as seguintes informações sobre este produto:
+- nome
+- descricao
+- categoria
+- marcas
+- fabricantes
