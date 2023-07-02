@@ -15,6 +15,10 @@ if __name__ == "__main__":
             ean_code = sys.argv[sys.argv.index("--ean") + 1]
             kwargs["ean_code"] = ean_code
 
+        if "--name" in sys.argv:
+            ean_code = sys.argv[sys.argv.index("--name") + 1]
+            kwargs["name"] = ean_code
+
         prompt = get_template_content(template_name, **kwargs)
 
     elif "--prompt" in sys.argv:

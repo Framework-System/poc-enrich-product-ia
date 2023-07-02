@@ -1,4 +1,4 @@
-Preciso de cadastrar informações do produto TALCO INF TRALALA BABY SUAVE 160G na minha farmácia.
+Preciso de cadastrar informações do produto {name} na minha farmácia.
 O produto tem o código EAN {ean_code}.
 
 No formato json, retorne somente as seguintes informações sobre este produto:
