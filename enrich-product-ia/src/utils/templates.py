@@ -1,4 +1,4 @@
-import settings
+from src import settings
 
 
 def get_template_content(template_name: str, *args, **kwargs) -> str:

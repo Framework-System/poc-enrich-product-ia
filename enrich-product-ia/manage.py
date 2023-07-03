@@ -1,7 +1,7 @@
 import sys
 
-from services.openai import OpenAI
-from utils.templates import get_template_content
+from src.services.openai import OpenAI
+from src.utils.templates import get_template_content
 
 
 if __name__ == "__main__":
