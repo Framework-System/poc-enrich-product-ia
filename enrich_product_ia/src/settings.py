@@ -16,7 +16,8 @@ TEMPLATES_DIR = f"{BASE_DIR}/templates"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "text-davinci-003")
 OPENAI_TEMPERATURE = int(os.getenv("OPENAI_TEMPERATURE", 0))
-OPENAI_MAX_TOKENS = int(os.getenv("OPENAI_MAX_TOKENS", 1000))
+OPENAI_MAX_TOKENS = int(os.getenv("OPENAI_MAX_TOKENS", 2000))
+OPENAI_JSON_FIELD_MAX_LENGTH = int(os.getenv("OPENAI_JSON_FIELD_MAX_LENGTH", 200))
 
 
 # Logs settings
